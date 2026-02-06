@@ -84,3 +84,23 @@ ul li {
     grid-template-columns: 1fr;
   }
 }
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: #f3e8dc;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.tags span:hover {
+  background: #e6d5c3;
+  transform: translateY(-3px);
+}
+
