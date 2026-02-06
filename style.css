@@ -1,52 +1,49 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #f2f4f7;
-  color: #333;
+  background: #0e0e0e;
+  color: #e5e7eb;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 40px;
-  background: white;
-  position: sticky;
-  top: 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav a {
+a {
+  color: #60a5fa;
   text-decoration: none;
-  color: #4a90e2;
-  font-weight: 600;
 }
 
-header {
-  text-align: center;
-  padding: 80px 20px;
-  background: #4a90e2;
-  color: white;
-}
-
-section {
-  padding: 60px 15%;
-}
-
-h2 {
-  color: #4a90e2;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 30px;
+  padding: 60px;
 }
 
 .card {
-  background: white;
-  padding: 25px;
-  margin-top: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  background: #171717;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.profile h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.role {
+  color: #9ca3af;
+}
+
+h2 {
+  margin-top: 0;
+  color: #93c5fd;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 12px;
 }
 
 .tags {
@@ -56,20 +53,25 @@ h2 {
 }
 
 .tags span {
-  background: #e6eef9;
-  color: #4a90e2;
-  padding: 8px 12px;
-  border-radius: 20px;
+  background: #1f2933;
+  padding: 8px 14px;
+  border-radius: 999px;
   font-size: 14px;
+  color: #93c5fd;
 }
 
-a {
-  color: #4a90e2;
-  font-weight: bold;
+.project {
+  margin-bottom: 25px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #e6eef9;
+.project h3 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
 }
