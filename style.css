@@ -46,6 +46,7 @@ h1 {
 .role {
   color: #a1866f;
   margin-top: 5px;
+  text-align: center; 
 }
 
 h2 {
@@ -228,5 +229,12 @@ ul li {
   color: #7a6a5a;
 }
 p {
+  text-align: justify;
+}
+
+.left .card p {
+  font-size: 14px;
+  font-weight: 400; /* normal seperti .tags span */
+  line-height: 1.6;
   text-align: justify;
 }
