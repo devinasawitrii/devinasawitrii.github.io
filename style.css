@@ -39,7 +39,7 @@ body {
 }
 
 h1 {
-  font-size: 18px; /* Nama */
+  font-size: 15px; /* Nama */
   font-weight: 600;
 }
 
@@ -51,26 +51,26 @@ h1 {
 }
 
 h2 {
-  font-size: 18px; /* Section title: About, Tools, Skills, Projects */
+  font-size: 15px; /* Section title: About, Tools, Skills, Projects */
   color: #a1866f;
   margin-bottom: 15px;
 }
 
 .proj-title {
-  font-size: 18px; /* Judul proyek: BISINDO Image Detection, dll */
+  font-size: 15px; /* Judul proyek: BISINDO Image Detection, dll */
   font-weight: 600;
   text-decoration: none;
   color: #3a3a3a;
 }
 
 p {
-  font-size: 15px; /* Deskripsi teks: final-year, goggle colab, model able, dll */
+  font-size: 12px; /* Deskripsi teks: final-year, goggle colab, model able, dll */
   line-height: 1.6;
   text-align: justify;
 }
 
 .tags span {
-  font-size: 15px; /* Deskripsi tools & skills */
+  font-size: 12px; /* Deskripsi tools & skills */
   background: #f3e8dc;
   padding: 8px 14px;
   border-radius: 20px;
