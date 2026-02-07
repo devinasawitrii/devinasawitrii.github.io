@@ -192,3 +192,38 @@ ul li {
   margin-bottom: 3px;
 }
 
+.proj-item {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.proj-number {
+  font-weight: 600;
+  color: #a1866f;
+  font-size: 14px;
+}
+
+.proj-title {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.proj-title::after {
+  content: "  ↗";
+  font-weight: 700;
+}
+
+.proj-img {
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 10px;
+}
+
+.proj-content p {
+  font-size: 13px;
+  color: #7a6a5a;
+}
