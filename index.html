@@ -4,175 +4,193 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Devina Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- small safety override (optional but aman) -->
+  <style>
+    .profile p { text-align: center; }
+    .card p { text-align: justify; }
+  </style>
 </head>
 <body>
 
-  <div class="container">
-    <!-- LEFT SIDE -->
-    <div class="left">
+<div class="container">
 
-      <div class="card profile">
-        <img src="profile.jpg" class="avatar">
-        <h1>Devina</h1>
-        <p class="role">Data Science Student</p>
-      </div>
+  <!-- LEFT SIDE -->
+  <div class="left">
 
-      <div class="card">
-        <h2>About</h2>
-        <p>
-          Final-year Data Science undergraduate student at Universitas Negeri Surabaya with experience in academic projects, organizational activities, and professional certifications, and a strong interest in keeping up with technological advancements.
-        </p>
-      </div>
+    <div class="card profile">
+      <img src="profile.jpg" class="avatar" alt="Profile Photo">
+      <h1>Devina</h1>
+      <p class="role">Data Science Student</p>
+    </div>
 
+    <div class="card">
+      <h2>About</h2>
+      <p>
+        Final-year Data Science undergraduate student at Universitas Negeri Surabaya
+        with experience in academic projects, organizational activities, and
+        professional certifications, and a strong interest in keeping up with
+        technological advancements.
+      </p>
+    </div>
 
-      <!-- TOOLS -->
-      <div class="card">
-        <h2>Tools</h2>
-        <div class="tags">
-          <span>Google Colab</span>
-          <span>VS Code</span>
-          <span>Microsoft Excel</span>
-          <span>Python</span>
-          <span>R</span>
-          <span>SQL</span>
-          <span>RStudio</span>
-          <span>Looker Studio</span>
-          <span>Streamlit</span>
-          <span>LaTeX</span>
-        </div>
-      </div>
-      
-      <!-- SKILLS -->
-      <div class="card">
-        <h2>Skills</h2>
-        <div class="tags">
-          <span>Programming (Python, R, SQL)</span>
-          <span>Data Science</span>
-          <span>Data Analytics</span>
-          <span>Data Visualization</span>
-          <span>Machine Learning</span>
-          <span>Artificial Intelegence</span>
-          <span>Data Mining</span>
-          <span>Natural Language Processing (NLP)</span>
-          <span>Mathematics</span>
-        </div>
+    <div class="card">
+      <h2>Tools</h2>
+      <div class="tags">
+        <span>Google Colab</span>
+        <span>VS Code</span>
+        <span>Microsoft Excel</span>
+        <span>Python</span>
+        <span>R</span>
+        <span>SQL</span>
+        <span>RStudio</span>
+        <span>Looker Studio</span>
+        <span>Streamlit</span>
+        <span>LaTeX</span>
       </div>
     </div>
 
-    <!-- RIGHT SIDE -->
-    <div class="right">
-      <div class="card">
-        <h2>Projects</h2>
-      
-        <div class="proj-item">
-          <div class="proj-number">01.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_1" target="_blank" class="proj-title">
-              BISINDO Image Detection
-            </a>
-            <img src="signlang.png" class="proj-img">
-            <p>Machine learning model able to classify BISINDO (Indonesian Sign Language) letters based on hand images, using HOG and SVM resulted in an accuracy of 77% on non-augmented data in Python.</p>
-          </div>
-        </div>
-      
-        <div class="proj-item">
-          <div class="proj-number">02.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_2" target="_blank" class="proj-title">
-              Sentiment Analysis of LRT Jabodebek
-            </a>
-            <img src="datavis.png" class="proj-img">
-            <p>NLP-based sentiment analysis of Light Rail Transit (LRT) Jabodebek public opinions to evaluate public perception, 86% accuracy using TF-IDF and SVM in Python.</p>
-          </div>
-        </div>
-      
-        <div class="proj-item">
-          <div class="proj-number">03.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
-              Route Guide Program of 'Wira Wiri Surabaya' 
-            </a>
-            <img src="webteach.png" class="proj-img">
-            <p>Public Transportation Accessible learning materials via web & Canva.</p>
-          </div>
-        </div>
-
-        <div class="proj-item">
-          <div class="proj-number">04.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
-              KBKI Classify System 
-            </a>
-            <img src="webteach.png" class="proj-img">
-            <p>Initialization of product classify system based on KBKI (Indonesia’s Standard Commodity Classification), using H2O AutoML, including data preprocessing, model training, evaluation, and prototype deployment with Gradio</p>
-          </div>
-        </div>
-
-        <div class="proj-item">
-          <div class="proj-number">05.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
-              Economic Dashboard 
-            </a>
-            <img src="webteach.png" class="proj-img">
-            <p>Early development using Streamlit to analyze GDP, inflation, trade, poverty, employment, and human development.</p>
-          </div>
-        </div>
-
-        <div class="proj-item">
-          <div class="proj-number">06.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
-              Sales Performance Dashboard 
-            </a>
-            <img src="webteach.png" class="proj-img">
-            <p>Dashboard visualizing top products, customer segments, and geographic sales distribution</p>
-          </div>
-        </div>
-
-        <div class="proj-item">
-          <div class="proj-number">07.</div>
-          <div class="proj-content">
-            <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
-              Big Data Analysis 
-            </a>
-            <img src="webteach.png" class="proj-img">
-            <p>Customer churn prediction model on large-scale KKBOX data</p>
-          </div>
-        </div> 
-
     <div class="card">
-      <h2>Get in Touch</h2>
-      <ul class="contact-list">
-        <li>
-          <a href="https://www.linkedin.com/in/USERNAME" target="_blank">
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a href="mailto:emailkamu@gmail.com">
-            Email
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/deplearning-s" target="_blank">
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a href="LINK_RESUME_PDF" target="_blank">
-            Resume
-          </a>
-        </li>
-      </ul>
-
-      
-
+      <h2>Skills</h2>
+      <div class="tags">
+        <span>Programming (Python, R, SQL)</span>
+        <span>Data Science</span>
+        <span>Data Analytics</span>
+        <span>Data Visualization</span>
+        <span>Machine Learning</span>
+        <span>Artificial Intelligence</span>
+        <span>Data Mining</span>
+        <span>Natural Language Processing (NLP)</span>
+        <span>Mathematics</span>
+      </div>
     </div>
 
   </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right">
+
+    <!-- PROJECTS -->
+    <div class="card">
+      <h2>Projects</h2>
+
+      <div class="proj-item">
+        <div class="proj-number">01.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_1" target="_blank" class="proj-title">
+            BISINDO Image Detection
+          </a>
+          <img src="signlang.png" class="proj-img" alt="">
+          <p>
+            Machine learning model able to classify BISINDO letters using HOG and
+            SVM, achieving 77% accuracy on non-augmented data in Python.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">02.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_2" target="_blank" class="proj-title">
+            Sentiment Analysis of LRT Jabodebek
+          </a>
+          <img src="datavis.png" class="proj-img" alt="">
+          <p>
+            NLP-based sentiment analysis of public opinions with 86% accuracy
+            using TF-IDF and SVM in Python.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">03.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_3" target="_blank" class="proj-title">
+            Route Guide Program of "Wira Wiri Surabaya"
+          </a>
+          <img src="webteach.png" class="proj-img" alt="">
+          <p>
+            Public transportation accessibility learning materials delivered via
+            web and Canva.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">04.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_4" target="_blank" class="proj-title">
+            KBKI Classification System
+          </a>
+          <img src="webteach.png" class="proj-img" alt="">
+          <p>
+            Product classification system based on KBKI using H2O AutoML,
+            including preprocessing, modeling, evaluation, and deployment with
+            Gradio.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">05.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_5" target="_blank" class="proj-title">
+            Economic Dashboard
+          </a>
+          <img src="webteach.png" class="proj-img" alt="">
+          <p>
+            Streamlit-based dashboard analyzing GDP, inflation, trade, poverty,
+            employment, and human development indicators.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">06.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_6" target="_blank" class="proj-title">
+            Sales Performance Dashboard
+          </a>
+          <img src="webteach.png" class="proj-img" alt="">
+          <p>
+            Dashboard visualizing top products, customer segments, and geographic
+            sales distribution.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj-item">
+        <div class="proj-number">07.</div>
+        <div class="proj-content">
+          <a href="LINK_PROJECT_7" target="_blank" class="proj-title">
+            Big Data Analysis
+          </a>
+          <img src="webteach.png" class="proj-img" alt="">
+          <p>
+            Customer churn prediction on large-scale KKBOX dataset.
+          </p>
+        </div>
+      </div>
+
+    </div> <!-- END PROJECTS -->
+
+    <!-- GET IN TOUCH -->
+    <div class="card">
+      <h2>Get in Touch</h2>
+      <ul class="contact-list">
+        <li><a href="https://www.linkedin.com/in/USERNAME" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:emailkamu@gmail.com">Email</a></li>
+        <li><a href="https://github.com/deplearning-s" target="_blank">GitHub</a></li>
+        <li><a href="LINK_RESUME_PDF" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
 
 </body>
 </html>
