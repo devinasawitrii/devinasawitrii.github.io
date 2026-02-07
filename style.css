@@ -227,3 +227,6 @@ ul li {
   font-size: 13px;
   color: #7a6a5a;
 }
+p {
+  text-align: justify;
+}
