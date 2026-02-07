@@ -181,3 +181,14 @@ ul li {
   color: #9b8b7a;
 }
 
+.exp-desc {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+.exp-desc li {
+  font-size: 13px;
+  color: #8a7a69;
+  margin-bottom: 3px;
+}
+
