@@ -225,9 +225,11 @@ ul li {
 }
 
 .proj-content p {
-  font-size: 13px;
+  font-size: 14px;      /* samakan dengan .tags dan About */
   color: #7a6a5a;
+  text-align: justify;  /* tetap rata kanan-kiri */
 }
+
 p {
   text-align: justify;
 }
