@@ -133,32 +133,27 @@ ul li {
 .cert-list {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  margin-top: 10px;
+}
+
+.cert-list li {
+  margin-bottom: 8px;
 }
 
 .cert-list li a {
   text-decoration: none;
-  background: #f3e8dc;
-  padding: 10px 14px;
-  border-radius: 20px;
-  font-size: 13px;
   color: #3a3a3a;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  transition: 0.3s;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s;
 }
 
 .cert-list li a::after {
-  content: "↗";
-  font-size: 12px;
+  content: "  ↗";
+  font-weight: 400;
   opacity: 0.6;
 }
 
 .cert-list li a:hover {
-  background: #e6d5c3;
-  transform: translateY(-3px);
+  opacity: 0.7;
 }
-
