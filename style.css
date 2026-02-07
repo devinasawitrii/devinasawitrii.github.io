@@ -239,3 +239,31 @@ p {
   text-align: justify; 
 }
 
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.contact-list a::after {
+  content: "  ↗";
+  font-weight: 700;
+  color: #a1866f;
+}
+
+.contact-list a:hover {
+  color: #a1866f;
+  transform: translateX(3px);
+}
