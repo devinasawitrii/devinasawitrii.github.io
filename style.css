@@ -151,3 +151,33 @@ ul li {
   content: "  ↗";
   font-weight: 700;     /* panah bold */
 }
+
+.exp-item {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.exp-year {
+  font-weight: 600;
+  color: #a1866f;
+  font-size: 14px;
+}
+
+.exp-content h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.exp-content p {
+  font-size: 13px;
+  margin-bottom: 2px;
+  color: #7a6a5a;
+}
+
+.exp-content span {
+  font-size: 13px;
+  color: #9b8b7a;
+}
+
