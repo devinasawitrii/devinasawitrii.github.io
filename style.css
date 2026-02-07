@@ -46,7 +46,7 @@ h1 {
 .role {
   color: #a1866f;
   margin-top: 5px;
-  text-align: center; 
+  text-align: center; !important;
 }
 
 h2 {
