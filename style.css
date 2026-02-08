@@ -219,9 +219,10 @@ ul li {
 }
 
 .proj-img {
-  width: 50%;
-  max-width: 260px;
+  width: auto;
+  max-width: 100px;
 }
+
 
 .proj-content p {
   font-size: 14px;      /* samakan dengan .tags dan About */
