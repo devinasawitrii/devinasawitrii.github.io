@@ -1,199 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Devina Portfolio</title>
+<!-- PROJECTS -->
+<div class="card">
+  <h2>Projects</h2>
 
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <style>
-    .profile p { text-align: center; }
-    .card p { text-align: justify; }
-  </style>
-</head>
-<body>
-
-<div class="container">
-
-  <!-- LEFT SIDE -->
-  <div class="left">
-
-    <div class="card profile">
-      <img src="profile.jpg" class="avatar" alt="Profile Photo">
-      <h1>Devina Sawitri</h1>
-      <p class="role">Data Science Fresh Graduate</p>
-    </div>
-
-    <div class="card">
-      <h2>About</h2>
+  <div class="proj-item">
+    <div class="proj-number">01.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/Child-Privacy-Risk-Detection-for-Applications" target="_blank" class="proj-title">
+        Child Privacy Risk Detection for Applications
+      </a>
+      <img src="coppa.png" class="proj-img" alt="">
       <p>
-  Fresh graduate in Data Science from the State University of Surabaya with internship experience at Statistics Indonesia (BPS RI), academic projects, organizational activities, professional certifications, and a strong interest in keeping up with technological advancements.
+        Machine learning model to detect digital applications potentially violating children's privacy regulations using CatBoost, Optuna hyperparameter optimization, and majority data splitting with soft voting, achieving 90% recall for high-risk applications.
       </p>
     </div>
-
-    <!-- GET IN TOUCH -->
-    <div class="card">
-      <h2>Get in Touch</h2>
-      <ul class="contact-list">
-        <li><a href="https://www.linkedin.com/in/devina-sawitri" target="_blank">LinkedIn</a></li>
-        <li><a href="mailto:devinasawitrii@gmail.com">Email</a></li>
-        <li><a href="https://github.com/devinasawitrii" target="_blank">GitHub</a></li>
-        <li><a href="https://drive.google.com/file/d/1_ObU9619zQ1JYRlcLKQGD69PcbKH_3rS/view?usp=sharing" target="_blank">Resume</a></li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <h2>Tools</h2>
-      <div class="tags">
-        <span>Google Colab</span>
-        <span>VS Code</span>
-        <span>Microsoft Excel</span>
-        <span>Python</span>
-        <span>R</span>
-        <span>SQL</span>
-        <span>RStudio</span>
-        <span>Looker Studio</span>
-        <span>Streamlit</span>
-        <span>LaTeX</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Skills</h2>
-      <div class="tags">
-        <span>Programming (Python, R, SQL)</span>
-        <span>Data Science</span>
-        <span>Data Analytics</span>
-        <span>Data Visualization</span>
-        <span>Machine Learning</span>
-        <span>Artificial Intelligence</span>
-        <span>Data Mining</span>
-        <span>Natural Language Processing (NLP)</span>
-        <span>Mathematics</span>
-      </div>
-    </div>
-
   </div>
 
-  <!-- RIGHT SIDE -->
-  <div class="right">
+  <div class="proj-item">
+    <div class="proj-number">02.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/ChurnPredict" target="_blank" class="proj-title">
+        Big Data Analysis
+      </a>
+      <img src="churn.png" class="proj-img" alt="">
+      <p>
+        Data aggregation and customer churn prediction model on the large-scale KKBOX dataset.
+      </p>
+    </div>
+  </div>
 
-    <!-- PROJECTS -->
-    <div class="card">
-      <h2>Projects</h2>
+  <div class="proj-item">
+    <div class="proj-number">03.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/ClassifyKBKI" target="_blank" class="proj-title">
+        Initialization of Product Classification System
+      </a>
+      <img src="gradio.png" class="proj-img" alt="">
+      <p>
+        Product classification system based on KBKI (Indonesia's Standard Commodity Classification) using H2O AutoML, including data preprocessing, model training, evaluation, and prototype deployment with Gradio.
+      </p>
+    </div>
+  </div>
 
-      <div class="proj-item">
-        <div class="proj-number">01.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/Image-Classification-of-Bisindo-Letters" target="_blank" class="proj-title">
-            BISINDO Image Detection
-          </a>
-          <img src="bisindoo.png" class="proj-img" alt="">
-          <p>
-            Machine learning model to classify BISINDO (Indonesian Sign Language) letters based on hand images using HOG and SVM, achieving 77% accuracy on non-augmented data in Python.
-          </p>
-        </div>
-      </div>
+  <div class="proj-item">
+    <div class="proj-number">04.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/Sentiment-Analysis-of-Light-Rail-Transit-LRT-Jabodebek" target="_blank" class="proj-title">
+        Sentiment Analysis of Light Rail Transit (LRT) Jabodebek
+      </a>
+      <img src="sentiment.png" class="proj-img" alt="">
+      <p>
+        Sentiment analysis of public opinions on LRT Jabodebek using TF-IDF feature extraction and an SVM classifier, achieving 86% accuracy.
+      </p>
+    </div>
+  </div>
 
-      <div class="proj-item">
-        <div class="proj-number">02.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/Sentiment-Analysis-of-Light-Rail-Transit-LRT-Jabodebek" target="_blank" class="proj-title">
-            Sentiment Analysis of LRT Jabodebek
-          </a>
-          <img src="sentiment.png" class="proj-img" alt="">
-          <p>
-            NLP-based sentiment analysis of LRT Jabodebek to evaluate public perception, with 86% accuracy using TF-IDF and SVM in Python.
-          </p>
-        </div>
-      </div>
+  <div class="proj-item">
+    <div class="proj-number">05.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/Image-Classification-of-Bisindo-Letters" target="_blank" class="proj-title">
+        Detection of BISINDO (Indonesian Sign Language) Letters
+      </a>
+      <img src="bisindoo.png" class="proj-img" alt="">
+      <p>
+        Image classification of BISINDO (Indonesian Sign Language) letters using HOG feature extraction and an SVM classifier, achieving 77% accuracy on non-augmented data.
+      </p>
+    </div>
+  </div>
 
-      <div class="proj-item">
-        <div class="proj-number">03.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/Route-Guide-Program-of-Public-Transportation-Wira-Wiri-Surabaya-" target="_blank" class="proj-title">
-            Route Guide Program of "Wira Wiri Surabaya"
-          </a>
-          <img src="rute.png" class="proj-img" alt="">
-          <p>
-            Python-based program simulating route guidance for public transport "Wira Wiri Surabaya".
-          </p>
-        </div>
-      </div>
+  <div class="proj-item">
+    <div class="proj-number">06.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/Route-Guide-Program-of-Public-Transportation-Wira-Wiri-Surabaya-" target="_blank" class="proj-title">
+        Route Guide Program of Public Transportation "Wira Wiri Surabaya"
+      </a>
+      <img src="rute.png" class="proj-img" alt="">
+      <p>
+        Comparative analysis of Dijkstra, Bellman-Ford, and A* algorithms for route optimization in the Wira Wiri Surabaya public transportation network using Python.
+      </p>
+    </div>
+  </div>
 
-      <div class="proj-item">
-        <div class="proj-number">04.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/ClassifyKBKI" target="_blank" class="proj-title">
-            KBKI Classification System
-          </a>
-          <img src="gradio.png" class="proj-img" alt="">
-          <p>
-            Initialization of product classification system based on KBKI (Indonesia’s Standard Commodity Classification) using H2O AutoML, including data preprocessing, modeling, evaluation, and prototype deployment with Gradio.
-          </p>
-        </div>
-      </div>
+  <div class="proj-item">
+    <div class="proj-number">07.</div>
+    <div class="proj-content">
+      <a href="https://github.com/devinasawitrii/EconomicDashboard" target="_blank" class="proj-title">
+        Economic Dashboard
+      </a>
+      <img src="streamlit.png" class="proj-img" alt="">
+      <p>
+        Early-stage Streamlit dashboard for analyzing GDP, inflation, trade, poverty, employment, and human development indicators.
+      </p>
+    </div>
+  </div>
 
-      <div class="proj-item">
-        <div class="proj-number">05.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/EconomicDashboard" target="_blank" class="proj-title">
-            Economic Dashboard
-          </a>
-          <img src="streamlit.png" class="proj-img" alt="">
-          <p>
-            Early-stage development of a Streamlit-based dashboard analyzing Gross Domestic Product (GDP), inflation, trade, poverty, employment, and human development indicators.
-          </p>
-        </div>
-      </div>
-
-      <div class="proj-item">
-        <div class="proj-number">06.</div>
-        <div class="proj-content">
-          <a href="https://lookerstudio.google.com/reporting/4f7e517c-801d-4565-8189-023877c3d999" target="_blank" class="proj-title">
-            Sales Performance Dashboard
-          </a>
-          <img src="sales.png" class="proj-img" alt="">
-          <p>
-            Dashboard visualizing top products, customer segments, and geographic
-            sales distribution.
-          </p>
-        </div>
-      </div>
-
-      <div class="proj-item">
-        <div class="proj-number">07.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/ChurnPredict" target="_blank" class="proj-title">
-            Big Data Analysis
-          </a>
-          <img src="churn.png" class="proj-img" alt="">
-          <p>
-            Data aggregation and machine learning modeling for customer churn prediction using a large-scale KKBOX dataset.
-          </p>
-        </div>    
-      </div>
-
-      <div class="proj-item">
-        <div class="proj-number">08.</div>
-        <div class="proj-content">
-          <a href="https://github.com/devinasawitrii/Child-Privacy-Risk-Detection-for-Applications" target="_blank" class="proj-title">
-            Child Privacy Risk Detection for Applications
-          </a>
-          <img src="coppa.png" class="proj-img" alt="">
-          <p>
-            Machine learning model to detect digital applications potentially violating children's privacy regulations using CatBoost. The model applies Mutually Disjoint Dataset, hyperparameter optimization, and threshold optimization to improve minority-class detection on highly imbalanced data.
-          </p>
-        </div>
-      </div>
-
-    </div> <!-- END PROJECTS -->
-
+  <div class="proj-item">
+    <div class="proj-number">08.</div>
+    <div class="proj-content">
+      <a href="https://lookerstudio.google.com/reporting/4f7e517c-801d-4565-8189-023877c3d999" target="_blank" class="proj-title">
+        Sales Performance Dashboard
+      </a>
+      <img src="sales.png" class="proj-img" alt="">
+      <p>
+        Interactive dashboard visualizing top-performing products, customer segments, and geographic sales distribution.
+      </p>
+    </div>
   </div>
 
 </div>
-
-</body>
-</html>
