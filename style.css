@@ -126,7 +126,7 @@ ul li {
   gap: 8px;
 }
 
-.proj-img-row {
+/* .proj-img-row {
   display: flex;
   gap: 10px;
 }
@@ -136,7 +136,7 @@ ul li {
   max-width: 100px;
   border-radius: 10px;
   display: block;
-}
+} */
 
 .proj-content p {
   font-size: 14px;
@@ -228,4 +228,48 @@ p {
 
 .tool-item:hover {
   transform: translateY(-3px);
+}
+
+/* PROJECTS: gambar lebih besar dan jelas */
+.proj-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #efe4d6;
+  display: block;
+}
+
+.proj-img-row {
+  display: flex;
+  gap: 10px;
+}
+
+.proj-img-row .proj-img {
+  width: calc(50% - 5px);
+}
+
+/* PROJECTS: chip tools */
+.proj-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.proj-tools span {
+  background: #f3e8dc;
+  color: #7a6a5a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.proj-content p.proj-meta {
+  font-size: 13px;
+  color: #7a6a5a;
+  text-align: left;
+}
+
+.proj-meta b {
+  color: #a1866f;
 }
