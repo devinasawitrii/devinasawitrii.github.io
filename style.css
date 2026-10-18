@@ -230,16 +230,6 @@ p {
   transform: translateY(-3px);
 }
 
-/* PROJECTS: gambar lebih besar dan jelas */
-.proj-img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 1px solid #efe4d6;
-  display: block;
-}
-
 /* PROJECTS: ukuran gambar sedang */
 .proj-img {
   width: 100%;
