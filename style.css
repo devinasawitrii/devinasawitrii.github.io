@@ -240,6 +240,16 @@ p {
   display: block;
 }
 
+/* PROJECTS: ukuran gambar sedang */
+.proj-img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #efe4d6;
+  display: block;
+}
+
 .proj-img-row {
   display: flex;
   gap: 10px;
@@ -247,8 +257,8 @@ p {
 
 .proj-img-row .proj-img {
   width: calc(50% - 5px);
+  max-width: 200px;
 }
-
 /* PROJECTS: chip tools */
 .proj-tools {
   display: flex;
