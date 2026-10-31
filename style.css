@@ -307,3 +307,21 @@ p {
   line-height: 1;
   cursor: pointer;
 }
+
+/* PROJECTS: efek hover */
+.proj-item {
+  padding: 14px;
+  margin: 0 -14px 25px;
+  border-radius: 14px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.proj-item:hover {
+  background: #f8f0e5;
+  transform: translateY(-2px);
+}
+
+.proj-item:hover .proj-title,
+.proj-item:hover .proj-number {
+  color: #a1866f;
+}
