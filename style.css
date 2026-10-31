@@ -308,20 +308,32 @@ p {
   cursor: pointer;
 }
 
-/* PROJECTS: efek hover */
+/* PROJECTS: efek hover & klik */
 .proj-item {
   padding: 14px;
   margin: 0 -14px 25px;
   border-radius: 14px;
-  transition: background 0.3s, transform 0.3s;
+  border-left: 4px solid transparent;
+  cursor: pointer;
+  transition: background 0.3s, border-color 0.3s, box-shadow 0.3s, transform 0.3s;
 }
 
-.proj-item:hover {
-  background: #f8f0e5;
+.proj-item:hover,
+.proj-item.selected {
+  background: #f3e8dc;
+  border-left-color: #a1866f;
+  box-shadow: 0 6px 18px rgba(161, 134, 111, 0.25);
   transform: translateY(-2px);
 }
 
 .proj-item:hover .proj-title,
-.proj-item:hover .proj-number {
+.proj-item:hover .proj-number,
+.proj-item.selected .proj-title,
+.proj-item.selected .proj-number {
   color: #a1866f;
+}
+
+.proj-item:hover .proj-tools span,
+.proj-item.selected .proj-tools span {
+  background: #ffffff;
 }
