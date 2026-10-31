@@ -337,3 +337,39 @@ p {
 .proj-item.selected .proj-tools span {
   background: #ffffff;
 }
+
+/* PROJECTS: judul sebagai tautan */
+.proj-title {
+  color: #a1866f;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(161, 134, 111, 0.4);
+  width: fit-content;
+}
+
+.proj-title::after {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.proj-item .proj-title:hover {
+  color: #7a5f48;
+  text-decoration-color: #7a5f48;
+}
+
+.proj-item .proj-title:hover::after {
+  transform: translate(3px, -3px);
+}
+
+/* tautan di dalam deskripsi (misalnya "view here") */
+.proj-content p a {
+  color: #a1866f;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.proj-content p a:hover {
+  color: #7a5f48;
+}
